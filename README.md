@@ -9,5 +9,5 @@ oc start-build myapp --from-file=aero.war
 oc new-app myapp
 oc expose svc/myapp
 ```
-The ```--from-file=``` can also be a url.
+The ```--from-file=``` arg can also be a url.
 
