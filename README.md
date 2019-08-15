@@ -21,7 +21,8 @@ Expose the service via a route
 ```
 oc expose svc/myapp
 ```
-Get the route and visit the app.
+Get the route and visit the HOST/PORT reported with a web browser.
+
 ```
 oc get routes
 ```
