@@ -2,7 +2,7 @@
 EAP binary deploy to openshift 3.11
 
 ```
-oc new-project eaptest-bob
+oc new-project eaptest-YOUR_NAME
 oc import-image eap72-openshift --from=registry.access.redhat.com/jboss-eap-7/eap72-openshift --confirm
 oc new-build --image-stream=eap72-openshift --name=myapp --binary=true
 oc start-build myapp --from-file=aero.war
